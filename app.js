@@ -111,7 +111,7 @@ function snackbar() {
     }, 3000);
   }
 
-  
+
 
   
 
@@ -131,3 +131,11 @@ window.addEventListener('keyup', (e) => {
 pll();
 
 generateScramble.addEventListener('click', pll);
+
+
+//Toggle Background
+
+function toggleBg(color) {
+    var element = document.querySelector('body');
+   element.classList.toggle(color);
+  }
