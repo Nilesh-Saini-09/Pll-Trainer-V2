@@ -145,9 +145,18 @@ body {
 }
 
 .image-container {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: white;
+  border-radius: 10px;
+}
+
+.image-container img {
+  width: 150px;
+  height: 150px;
 }
 
 /* Media Queries */
